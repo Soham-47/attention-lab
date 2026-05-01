@@ -2,21 +2,13 @@
 
 A clean PyTorch implementation of attention mechanisms — built step-by-step for learning and experimentation.
 
-## What's Implemented
-
-- Tokenization & vocabulary mapping
-- Token embeddings
-- Scaled dot-product attention
-- Single-head self-attention (Q, K, V projections)
-- **Masked self-attention**
-- Modular, extensible design
-
 ## Project Structure
 
 ```
 ├── self_attention.py   # Self-attention 
 ├── data.py             # Tokenization, embeddings, pipeline
-├── masked_self_attention.py       # masked self-attention
+├── masked_self_attention.py    # masked self-attention
+├── multi_head_attention.py     # multi-head attention
 └── README.md
 ```
 
@@ -39,18 +31,12 @@ Input shape: `(batch_size, seq_len, embed_dim)`
 
 Masked self-attention applies a causal mask so each token only attends to itself and previous tokens — essential for autoregressive generation.
 
+Multi-head attention divides the embedding into seperate heads so that the each attention head focuses on specific subspace of the embedding.
+
 ## References
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [PyTorch Docs](https://pytorch.org/docs)
 
-## Roadmap
-
-- [ ] Multi-head attention
-- [ ] Positional encoding
-- [ ] Transformer encoder block
-- [ ] Attention map visualization
-
----
 
 *Built for learning. Contributions welcome.*

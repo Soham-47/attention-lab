@@ -31,7 +31,7 @@ Input shape: `(batch_size, seq_len, embed_dim)`
 
 Masked self-attention applies a causal mask so each token only attends to itself and previous tokens — essential for autoregressive generation.
 
-Multi-head attention divides the embedding into seperate heads so that the each attention head focuses on specific subspace of the embedding.
+Multi-head attention projects the embedding to a different space and then divides it for seperate heads so that the each attention head focuses on specific subspace of the embedding.
 
 ## References
 

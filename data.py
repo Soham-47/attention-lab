@@ -1,6 +1,7 @@
 import torch
 import torch.nn.functional as F
 from self_attention import Self_Attention
+from masked_self_attention import MaskedSelfAttention
 
 sentence = "India is a diverse nation consisting of different languages and cultures"
 
@@ -25,7 +26,14 @@ d_q , d_k , d_v = 24 , 24 , 28
 
 self_attn = Self_Attention(16 , 24 , 28)
 
-output = self_attn(embedded_sentence)
-print(output) 
+self_attn_output = self_attn(embedded_sentence)
+
+masked_self_attn = MaskedSelfAttention(16 , 24 , 28)
+
+masked_attn_output = masked_self_attn(embedded_sentence)
+
+print(masked_attn_output)
+
+
 
 

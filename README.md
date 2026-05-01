@@ -15,8 +15,8 @@ A clean PyTorch implementation of attention mechanisms — built step-by-step fo
 ## Quickstart
 
 ```bash
-git clone https://github.com/your-username/attention-from-scratch.git
-cd attention-from-scratch
+git clone https://github.com/Soham-47/attention-lab.git
+cd attention-lab
 pip install torch
 python data.py
 ```

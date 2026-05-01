@@ -3,13 +3,7 @@
 
 ![Image](https://images.openai.com/static-rsc-4/2sZsx_YXV-wZZI1J2fbqJF3701LjkACOd8dRpWg8c4w04PSE4HqXYbhPgCLRF8j3wUu2gj4RQp7oXvb2LeCafSZ7CXA8lH4TLJac65SlAtSw0nGKLBOIo6K29m-y4tQPAWET2yGbB6auvwGGZTGun8Jksib2CM5OQ1cdQlsqo8L63ID7-CyQd97kB1XB6upt?purpose=fullsize)
 
-![Image](https://images.openai.com/static-rsc-4/-zbGMtmt5QlB9CJeTJZ1e3w0xUYwN6dDY7MX335xUQrTue9gH5NAq3jjG_WG9MeUYyYv15q2JfsTvwzITCNHp4RGfocJD3PPnFIG12rFIQNld2gjH2Is-t2QeJE23DlcX7YrtEfgbegjx_AUQZTkghk6VXNrO0SXIeRmMwxIYE9VjcqBH2c6ksmC8muSlVbO?purpose=fullsize)
 
-![Image](https://images.openai.com/static-rsc-4/QrMRDEX8E8CuCzgoV_eYcNPRFRsizGW47HmgpgGqVNuUL8yrF9qTeMzn45L5vCMXnVtxL6BJjRzvJ-DMk637ss8megq0dIa46a9UD3Bz7y5ed-II0wZA2KSA7-opw0uFF7gnjNmlfL-Myi5bKmerVJTK_gU53Mo4EQeY0C1zIM1rjVW6xrZzd_xeAP9ynJs3?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/U1G_8Xa01C3uE8cy1gjtSb4y3IkqZM_6eP0fE5fGxalz7YQwvaQg7CEY7EER5SDQhci5Jh6jvVYNrjH0RQiIfuwjEjIr6oesyd8iubb9nDQPVGmivcKQGbDf0YGnMyNAJeRErmAJJXJ7p_yFGZ8J6Jmd4kqafsb7bkXo2hj2SlXuQanMOEG-Ac9R-IJ5nLny?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/E5iF1lUlG8_bxtA4KEGsVUI1zfwSUbJc8t8aJF0f1DXYICXQzTYlAd9_P-r9wtmiIBy3w-xeZbd133mpjzxSBuM5CT9AUCqEbQBqnZKq7oJ5l5nT3VdGwNJ3YW0j4RaOWCwfn6iXoMmYUK27SGdCVTy-QdCcqgjJeFHel2mCTcu_7nnBR-IYmb3Btp7sJVUE?purpose=fullsize)
 
 ## Overview
 
@@ -68,22 +62,6 @@ Sentence → Tokenization → Integer Encoding → Embedding → Attention → C
 
 ---
 
-## Mathematical Formulation
-
-The attention mechanism is defined as:
-
-[
-\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-]
-
-Where:
-
-* ( Q ) represents queries
-* ( K ) represents keys
-* ( V ) represents values
-* ( d_k ) is the key dimension used for scaling
-
----
 
 ## Implementation Details
 
